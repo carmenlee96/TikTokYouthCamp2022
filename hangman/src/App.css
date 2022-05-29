@@ -6,11 +6,11 @@ body,
 #root {
   background-color: lightgray;
   color: black;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Papyrus, Copperplate, Fantasy;
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 80vh;
+  height: 100vh;
   margin: 0;
   overflow: hidden;
 }
