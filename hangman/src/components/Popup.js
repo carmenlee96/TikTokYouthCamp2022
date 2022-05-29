@@ -7,11 +7,11 @@ const Popup = ({correct, wrong, word, set, replay}) => {
   let playable = true;
 
   if( checkWin(correct, wrong, word) === 'win' ) {
-    message = 'You won!!';
+    message = 'You got the correct word!!';
     playable = false;
   } else if( checkWin(correct, wrong, word) === 'lose' ) {
     message = 'Game over';
-    revealWord = `the word was ${word}`;
+    revealWord = `the answer was ${word}`;
     playable = false;
   }
 
